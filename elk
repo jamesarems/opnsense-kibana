@@ -1,0 +1,22 @@
+#!/bin/bash
+##ELK Stask commands
+if [ "$1" == start ]; then
+systemctl start elasticsearch
+systemctl start logstash
+systemctl start kibana
+echo "ELK Services started"
+elif [ "$1" == stop ]; then
+systemctl stop elasticsearch
+systemctl stop logstash
+systemctl stop kibana
+echo "ELK Services stopped"
+elif [ "$1" == restart ]; then
+systemctl restart elasticsearch
+systemctl restart logstash
+systemctl restart kibana
+elif [ "$1" == status ]; then
+systemctl status elasticsearch
+systemctl status logstash
+systemctl status kibana
+else "Command error"
+fi
