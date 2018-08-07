@@ -1,16 +1,6 @@
 # GROK Custom Patterns (add to patterns directory and reference in GROK filter for pfSense events):
 # GROK Patterns for pfSense 2.4 Logging Format
-#
-# Created 27 Jan 2015 by J. Pisano (Handles TCP, UDP, and ICMP log entries)
-# Edited 14 Feb 2015 by Elijah Paul elijah.paul@gmail.com
-# Edited 10 Mar 2015 by Bernd Zeimetz <bernd@bzed.de>
-# Edited 28 Oct 2017 by Brian Turek <brian.turek@gmail.com>
-# Edited 31 Oct 2017 by Andrew Wilson <andrew@3ilson.com>
-# taken from https://gist.github.com/elijahpaul/3d80030ac3e8138848b5
-#
-# - Adjusted IPv4 to accept pfSense 2.4.X
-# - Adjusted IPv6 to accept pfSense 2.4.X
-#
+
 # TODO: Add/expand support for IPv6 messages.
 #
 # Usage: Use the PFSENSE_LOG_ENTRY pattern
